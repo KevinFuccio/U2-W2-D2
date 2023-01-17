@@ -83,10 +83,10 @@
       </div>
       <div class="d-flex justify-content-between mb-3">
         <h3>Saldi</h3>
-        <a href="#" class="text-info">Nascondi sezione</a>
+        <a href="#" class="text-info" data-bs-toggle="collapse" data-bs-target="#collapseExample">Nascondi sezione</a>
       </div>
       <div
-        class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 mb-5"
+        class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 mb-5 collapse" id="collapseExample"
       >
         <div class="col mb-3">
           <div class="card border border-2 border-info">
@@ -167,14 +167,15 @@
       </div>
       <div class="d-flex justify-content-between mb-3">
         <h3>Welcome Summer</h3>
-        <a href="#" class="text-info">Nascondi sezione</a>
+        <a href="#" class="text-info" data-bs-toggle="collapse" data-bs-target="#collapseExample1">Nascondi sezione</a>
       </div>
-      <div class="shadow-sm">
+      <div class="shadow-sm collapse" id="collapseExample1">
         <div
           class="row row-cols-2 row-cols-md-2 row-cols-lg-3 row-cols-xl-3 mb-5"
         >
           <div class="col mb-3">
-            <div class="card">
+            <div class="card position-relative">
+                <span class="badge text-bg-danger position-absolute top-0 end-0 m-2">HOT</span>
               <img
                 src="https://store.abax.bg/book.abax.bg/img_tour/1224/small/W2Y6FGV4.jpg"
                 class="card-img-top"
@@ -193,7 +194,8 @@
             </div>
           </div>
           <div class="col mb-3">
-            <div class="card">
+            <div class="card position-relative">
+                <span class="badge text-bg-danger position-absolute top-0 end-0 m-2">HOT</span>
               <img
                 src="https://store.abax.bg/book.abax.bg/img_tour/1224/small/W2Y6FGV4.jpg"
                 class="card-img-top"
@@ -212,7 +214,8 @@
             </div>
           </div>
           <div class="col mb-3">
-            <div class="card">
+            <div class="card position-relative">
+                <span class="badge text-bg-danger position-absolute top-0 end-0 m-2">HOT</span>
               <img
                 src="https://store.abax.bg/book.abax.bg/img_tour/1224/small/W2Y6FGV4.jpg"
                 class="card-img-top"
@@ -231,7 +234,8 @@
             </div>
           </div>
           <div class="col mb-3">
-            <div class="card">
+            <div class="card position-relative">
+                <span class="badge text-bg-danger position-absolute top-0 end-0 m-2">HOT</span>
               <img
                 src="https://store.abax.bg/book.abax.bg/img_tour/1224/small/W2Y6FGV4.jpg"
                 class="card-img-top"
@@ -250,7 +254,8 @@
             </div>
           </div>
           <div class="col mb-3">
-            <div class="card">
+            <div class="card position-relative">
+                <span class="badge text-bg-danger position-absolute top-0 end-0 m-2">HOT</span>
               <img
                 src="https://store.abax.bg/book.abax.bg/img_tour/1224/small/W2Y6FGV4.jpg"
                 class="card-img-top"
@@ -269,7 +274,8 @@
             </div>
           </div>
           <div class="col mb-3">
-            <div class="card">
+            <div class="card position-relative">
+                <span class="badge text-bg-danger position-absolute top-0 end-0 m-2">HOT</span>
               <img
                 src="https://store.abax.bg/book.abax.bg/img_tour/1224/small/W2Y6FGV4.jpg"
                 class="card-img-top"
@@ -425,6 +431,16 @@
             
           </div>
     </main>
+    <footer class="d-flex justify-content-center flex-column bg-black p-5">
+        <div class="d-flex justify-content-center">
+            <a href="#" class="btn btn-outline-secondary px-4 text-white"
+                    >Contattaci</a
+                  >  
+        </div>
+        <div class="d-flex justify-content-center">
+            <p>Kalina Travel LTD. All rights reserved.</p>
+        </div>
+    </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
